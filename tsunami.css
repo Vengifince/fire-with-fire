@@ -1,0 +1,139 @@
+.tsunami-container {position: relative;
+width: 435px;
+  margin: 50px auto;
+  min-height: 390px;
+  background: #d6d6d6;
+  border-radius: 15px;
+  border: 1px solid #aaaaaa;
+  
+}
+
+.tsunami-inner {
+  position: relative;
+  width: 420px;
+  margin: 7px auto;
+  background: #f7f7f7;
+  min-height: 390px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+.tsunami-block {position: absolute;
+width: 420px;
+height: 150px;
+background: rgba(var(--accent));
+border-radius: 15px 15px 0px 0px;
+}
+.tsunami-wave {position: absolute;
+  width: 420px;
+  height: 90px;
+  margin-top: 60px;
+  background: rgba(var(--accentdark));
+  border-radius: 50% 50% 0px 0px;
+  
+}
+
+.tsunami-image {
+  position: absolute;
+  width: 420px;
+  height: 150px;
+  margin-top: -60px;
+  border-radius: 15px 15px 0px 0px;
+  filter: grayscale(100%);
+  opacity: 0.2;
+  
+}
+
+.tsunami-month
+{position: absolute;
+margin-top: 110px;
+margin-left: 130px;
+padding: 0px 0px 0px 15px;
+  width: 135px;
+  height: 40px;
+  background: #f7f7f7;
+  border-radius: 10px 10px 0px 0px;
+  z-index: 2;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+
+.tsunami-month h1
+
+{background-image:linear-gradient(to bottom right, 
+  rgba(var(--main)),
+  rgb(var(--maindark)));
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+background-size:100%;
+  font-size: 22px;
+}
+
+.tsunami-icon
+
+{position: absolute;
+  color: #f7f7f7;
+  font-size: 80px;
+  z-index: 2;
+  margin-left: 159px;
+  margin-top: 15px;
+}
+
+
+.tsunami-body
+
+{position: relative;
+  margin-top: 160px;
+  padding: 40px;
+  text-justify: auto;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #666;
+  font-weight: 500;
+  line-height: 23px;
+
+}
+
+.tsunami-body b
+{color: rgba(var(--main));
+    font-weight: 900;}
+
+.tsunami-body i
+{opacity: 0.8;
+    font-weight: 700;
+  
+}
+
+.tsunami-body u
+
+ {font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(to left, rgba(var(--main), 0.5) 0%, rgba(var(--accent), 0.75) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2.5px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;}
+    
+.tsunami-body hr
+
+{border: 0;
+height: 1px;
+background-color: #ccc;
+margin: 30px auto;
+width: 200px;
+
+}
+
+.tsunami-body a
+
+{text-decoration: none;
+  color: #f7f7f7;
+  background: linear-gradient(to left, rgba(var(--main), 0.5) 0%, rgba(var(--maindark), 0.75) 100%);
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 5px;
+  font-size: 10px;
+}
